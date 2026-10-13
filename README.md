@@ -43,7 +43,7 @@ key raises that (send it as an `X-Api-Key` header).
 
 ```bash
 # 1. Install the skill (pick your agent when prompted)
-npx skills add <your-github-username>/stargazer-skills --skill sky-tour-guide
+npx skills add terminator349/stargazer-skills --skill sky-tour-guide
 
 # 2. Claude Code example: connect the MCP server it needs
 claude mcp add --transport http cyclecalcs https://www.cyclecalcs.com/mcp
